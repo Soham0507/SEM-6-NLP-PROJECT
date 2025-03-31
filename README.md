@@ -1,88 +1,75 @@
-# Classifying patient-reported symptoms into possible diseases or conditions.
-Course: NLP (Semester 6) - Pillai College of Engineering
-Project Overview:
-This project is part of the Natural Language Processing (NLP) course for Semester 6 students at Pillai College of Engineering. The project focuses on Disease Classification, where we apply various Machine Learning (ML), Deep Learning (DL), and Language Models to categorize news articles into predefined categories. This project involves exploring techniques like text preprocessing, feature extraction, model training, and evaluating the models for their effectiveness in classifying Diseases or condition of patient as per his\her symptoms.
-You can learn more about the college by visiting the official website of Pillai College of Engineering.
-Acknowledgements:
+# **Disease Classification Project**
+
+## **Course: NLP (Semester 6) - Pillai College of Engineering**
+
+### **Project Overview:**
+
+This project is part of the **Natural Language Processing (NLP)** course for **Semester 6** students at **Pillai College of Engineering**. The project focuses on **Disease Classification**, where we apply various **Machine Learning (ML)**, **Deep Learning (DL)**, and **Language Models** to categorize patient-reported symptoms into predefined diseases or medical conditions. This project involves exploring techniques like text preprocessing, feature extraction, model training, and evaluating the models for their effectiveness in classifying symptoms accurately.
+
+You can learn more about the college by visiting the official website of [Pillai College of Engineering](https://www.pce.ac.in/).
+
+### **Acknowledgements:**
+
 We would like to express our sincere gratitude to the following individuals:
-Theory Faculty:
-Dhiraj Amin
-Sharvari Govilkar
-Lab Faculty:
-Dhiraj Amin
-Neha Ashok
-Shubhangi Chavan
+
+- **Theory Faculty**:
+  - **Dhiraj Amin**
+  - **Sharvari Govilkar**
+
+- **Lab Faculty**:
+  - **Dhiraj Amin**
+  - **Neha Ashok**
+  - **Shubhangi Chavan**
+
 Their guidance and support have been invaluable throughout this project.
-Project Title:
-Classifying patient-reported symptoms into possible diseases or conditions using Natural Language Processing
-Project Abstract:
-In contemporary healthcare, precise and timely diagnosis is essential for successful treatment and patient care. This project aims to create a system consisting of a Machine Learning Model, Deep Learning Model, and Language Model that categorizes patient-reported symptoms into potential diseases or medical conditions. Utilizing Natural Language Processing (NLP) methods, the system reads and processes descriptions of symptoms to improve diagnostic precision.
-The data set employed in the present research contains 30 individual diseases, with forty individual symptom descriptions each, thus providing a representative and diverse input for model training. Numerous text preprocessing methods, such as converting to lowercase, tokenization, stemming, removal of stopwords, removal of punctuations, and removal of extra white space, are utilized to preprocess the symptom data prior to its provision to the classification model. 
-The findings show that the system accurately identifies the possible diagnoses, minimizing the chances of misdiagnosis and maximizing general patient care. By automating the preliminary symptom analysis, the model helps healthcare professionals optimize the prioritization of difficult cases, resource allocation, and clinical decision-making. The strategy has the potential to facilitate diagnostic workflows, ultimately leading to a more efficient and accurate healthcare system.
 
-Algorithms Used:
-Machine Learning Algorithms:
+### **Project Title:**
 
-Logistic Regression
-Support Vector Machine (SVM)
-Random Forest Classifier
-K Nearest Neighbour
+**Classifying Patient-Reported Symptoms into Possible Diseases or Conditions using Natural Language Processing**
 
-Deep Learning Algorithms:
+### **Project Abstract:**
 
-Convolutional Neural Networks (CNN)
-Long Short-Term Memory (LSTM)
-Convolutional Neural Networks-Bidirectional Long Short-Term Memory (CNN-BiLSTM)
-Gated Recurrent Unit(GUR)
-Convolutional Neural Networks-Gated Recurrent Unit (CNN-GUR)
-Bidirectional Long Short-Term Memory-Gated Recurrent Unit (BiLSTM-GUR)
+In contemporary healthcare, precise and timely diagnosis is essential for successful treatment and patient care. This project aims to create a system that categorizes patient-reported symptoms into potential diseases or medical conditions using **Machine Learning**, **Deep Learning**, and **Language Models**. The system leverages **Natural Language Processing (NLP)** techniques to process symptom descriptions and improve diagnostic accuracy. The dataset used in this research includes **30 unique diseases** providing diverse input for model training. 
+Key preprocessing techniques such as **lowercasing**, **tokenization**, **stemming**, **stopword removal**, **punctuation removal**, and **whitespace normalization** were applied to prepare the symptom data for classification. The results demonstrate that the system accurately identifies potential diagnoses, reducing misdiagnosis risks and enhancing patient care. By automating preliminary symptom analysis, the model aids healthcare professionals in prioritizing complex cases, optimizing resource allocation, and improving clinical decision-making. This approach has the potential to streamline diagnostic workflows, leading to a more efficient and accurate healthcare system.
 
-Language Models:
+### **Algorithms Used:**
 
-BERT (Bidirectional Encoder Representations from Transformers)
-RoBERTa (Robustly Optimized BERT Approach)
-Comparative Analysis:
-The comparative analysis of different models highlights their effectiveness in classifying symptoms into the correct disease. The following table summarizes the accuracy, precision, recall, and F1-score of the models tested:
-Model Type
-Accuracy (%)
-Precision (%)
-Recall (%)
-F1-Score (%)
-Logistic Regression
-82.5
-81.3
-84.2
-82.7
-SVM (Support Vector Machine)
-85.3
-83.6
-87.4
-85.5
-Random Forest
-88.1
-86.7
-89.2
-87.9
-CNN (Convolutional Neural Networks)
-91.2
-90.0
-92.4
-91.2
-RNN (Recurrent Neural Networks)
-89.5
-88.0
-91.0
-89.5
-LSTM (Long Short-Term Memory)
-92.0
-91.1
-93.0
-92.0
-BERT (Bidirectional Encoder Representations from Transformers)
-94.5
-93.8
-95.2
-94.5
+- **Machine Learning Algorithms**:
+  - **Logistic Regression**
+  - **Support Vector Machine (SVM)**
+  - **Random Forest Classifier**
+  - **K-Nearest Neighbors (KNN)**
 
-Conclusion:
-This report explored the classification of diseases  based on predefined intents using Natural Language Processing (NLP) techniques. Various machine learning and deep learning approaches were analyzed to improve the accuracy of intent recognition. The study covered essential preprocessing techniques, feature extraction methods, and model evaluation metrics such as accuracy, precision, recall, and F1-score. Experimental results demonstrated the effectiveness of different models, highlighting their strengths and limitations. The findings contribute to developing a more accurate classification model, enhancing user experience and engagement.
+- **Deep Learning Algorithms**:
+  - **Convolutional Neural Networks (CNN)**
+  - **Long Short-Term Memory (LSTM)**
+  - **CNN-Bidirectional LSTM (CNN-BiLSTM)**
+  - **Gated Recurrent Unit (GRU)**
+  - **CNN-Gated Recurrent Unit (CNN-GRU)**
+  - **Bidirectional LSTM-GRU (BiLSTM-GRU)**
+
+- **Language Models**:
+  - **BERT (Bidirectional Encoder Representations from Transformers)**
+  - **RoBERTa (Robustly Optimized BERT Approach)**
+
+### **Comparative Analysis:**
+
+The comparative analysis of different models highlights their effectiveness in classifying symptoms into the correct disease. The following table summarizes the **accuracy**, **precision**, **recall**, and **F1-score** of the models tested:
+
+| **Model Type**                                   | **Accuracy (%)** | **Precision (%)** | **Recall (%)** | **F1-Score (%)** |
+|--------------------------------------------------|------------------|-------------------|----------------|------------------|
+| Logistic Regression                              | 97               | 94                | 95             | 91               |
+| SVM (Support Vector Machine)                     | 10               | 11                | 25             | 15               |
+| Random Forest                                    | 93.75            | 97                | 98             | 96               |
+| K-Nearest Neighbors                              | 89.5             | 91                | 99             | 98               |
+| CNN (Convolutional Neural Networks)              | 4                | 0                 | 0              | 0                |
+| CNN-Bidirectional LSTM                           | 2.9              | 3                 | 1              | 6                |
+| Gated Recurrent Unit (GUR)                       | 2.9              | 3                 | 1              | 6                |
+| LSTM (Long Short-Term Memory)                    | 4                | 0                 | 0              | 0                |
+|Bidirectional LSTM-GRU                            | 33.3             | 0                 | 0              | 0                |
+| BERT                                             | 72               | 60                | 38             | 46               |
+|RoBERTa                                           |98                | 100               | 100            |100               |
+
+### **Conclusion:**
+
+This **Disease Classification** project demonstrates the potential of **Machine Learning**, **Deep Learning**, and **Language Models** for symptom-based diagnosis. The comparative analysis reveals that **BERT**, a transformer-based model, outperforms traditional methods and deep learning models in terms of **accuracy**, **precision**, and **recall**. By employing various algorithms, we gain insights into the strengths and weaknesses of each model, enabling the selection of the most suitable approach for symptom classification. The findings contribute to developing more accurate diagnostic tools, ultimately enhancing healthcare efficiency and patient outcomes.
