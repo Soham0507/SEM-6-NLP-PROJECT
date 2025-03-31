@@ -25,7 +25,7 @@ Their guidance and support have been invaluable throughout this project.
 
 ### **Project Title:**
 
-**Classifying Patient-Reported Symptoms into Possible Diseases or Conditions using Natural Language Processing**
+**Classifying patient-reported symptoms into possible diseases or conditions. This helps healthcare providers by narrowing down diagnoses based on symptoms, allowing for faster clinical decision-making and improving patient care.**
 
 ### **Project Abstract:**
 
